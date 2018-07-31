@@ -6,18 +6,15 @@ namespace TestOOPJuly2018
 {
     public class Employee
     {
-      
-
-            #region Fields
-            // Fields to represent the data (private)
-            private string firstName;
+        #region Fields
+        // Fields to represent the data (private)
+        private string firstName;
         private string lastName;
         private float salary;
         private string bonus;
         private string ssn;
         private string address;
         #endregion
-
 
         // Properties to protect the fields + validation (use properties to access this data) (Regex)
         // Each property will be related to any of the above fields
@@ -61,7 +58,7 @@ namespace TestOOPJuly2018
 
 
         // default constructor (no-argument constructor)
-        public Employee()  
+        public Employee()
         // says instead of putting blanks, put these initliazed variables in 
         {
             FirstName = "not assigned";
@@ -82,11 +79,11 @@ namespace TestOOPJuly2018
             // fn = FirstName;  // logical error!! it's taking the user's input then assigning to the FirstName property
         }
 
-
-        // Methods
-
-
+        // Methods // ADDED VIRTUAL METHOD SO THAT THIS CAN ACCOMODATE CHANGE THAT'S NOT IN THE BASE METHOD
+        public virtual void PrintInfo() //void because it just prints, doesn't take anything 
+        {
+            Console.WriteLine($"{LastName},{FirstName}, SSN: {SSN}, Salary: {Salary}");
 
         }
     }
-
+}
