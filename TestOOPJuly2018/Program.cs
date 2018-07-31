@@ -38,6 +38,7 @@ namespace TestOOPJuly2018
                 float Salary = float.Parse(Console.ReadLine());
 
                 Employee temp = new Employee(FirstName,LastName,Salary,SSN); // using constructor instead of doing temp list and changing 
+                employees.Add(temp); // add the temp object to the employees list
 
                 Console.WriteLine("Do you want to add more employees?");
                 string choice = Console.ReadLine();
