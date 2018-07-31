@@ -25,20 +25,19 @@ namespace TestOOPJuly2018
             //used to add new employees to the list
             while(true) // made an object
             {
-                Employee temp = new Employee(); // make the object then modify based on the input
                 Console.WriteLine("Please provide the First Name:");
-                temp.FirstName = Console.ReadLine(); // temporary 
+                string FirstName = Console.ReadLine(); // temporary 
 
                 Console.WriteLine("Please provide the Last Name:");
-                temp.LastName = Console.ReadLine();
+                string LastName = Console.ReadLine();
 
                 Console.WriteLine("Please provide the SSN:");
-                temp.SSN = Console.ReadLine();
+                string SSN = Console.ReadLine();
 
                 Console.WriteLine("Please provide the Salary:");
-                temp.Salary = float.Parse(Console.ReadLine());
+                float Salary = float.Parse(Console.ReadLine());
 
-                employees.Add(temp); // add the temp object to the employees list 
+                Employee temp = new Employee(FirstName,LastName,Salary,SSN); // using constructor instead of doing temp list and changing 
 
                 Console.WriteLine("Do you want to add more employees?");
                 string choice = Console.ReadLine();
