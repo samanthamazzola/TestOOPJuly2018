@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5942398B-2989-42AB-8BA2-B8B265F04777}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestOOPJuly2018/Program.cs">
+    <Files>
+      <File FileName="TestOOPJuly2018/Program.cs" Line="78" Column="10" />
+      <File FileName="TestOOPJuly2018/Employee.cs" Line="47" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.TestOOPJuly2018 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

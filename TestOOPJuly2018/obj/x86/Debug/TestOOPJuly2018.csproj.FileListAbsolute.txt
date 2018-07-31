@@ -1,0 +1,6 @@
+/Users/samanthamazzola/Projects/TestOOPJuly2018/TestOOPJuly2018/bin/Debug/TestOOPJuly2018.exe
+/Users/samanthamazzola/Projects/TestOOPJuly2018/TestOOPJuly2018/bin/Debug/TestOOPJuly2018.pdb
+/Users/samanthamazzola/Projects/TestOOPJuly2018/TestOOPJuly2018/obj/x86/Debug/TestOOPJuly2018.csprojResolveAssemblyReference.cache
+/Users/samanthamazzola/Projects/TestOOPJuly2018/TestOOPJuly2018/obj/x86/Debug/TestOOPJuly2018.csproj.CoreCompileInputs.cache
+/Users/samanthamazzola/Projects/TestOOPJuly2018/TestOOPJuly2018/obj/x86/Debug/TestOOPJuly2018.exe
+/Users/samanthamazzola/Projects/TestOOPJuly2018/TestOOPJuly2018/obj/x86/Debug/TestOOPJuly2018.pdb
